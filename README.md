@@ -172,28 +172,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels xgboost jup
 3. Install the dependencies.
 4. Start Jupyter Notebook:
 
-   ```bash
-   jupyter notebook
-   ```
-
-5. Open `Hospital_LOS_Prediction.ipynb`.
-6. Run the notebook cells from top to bottom.
-
-The notebook includes an XGBoost installation cell. If XGBoost is already installed through the requirements command, that cell is unnecessary.
-
-## Suggested Repository Structure
-
-```text
-Hospital-LOS-Prediction/
-│
-├── Hospital_LOS_Prediction.ipynb
-├── healthcare_data.csv
-├── README.md
-└── requirements.txt
-```
-
-The CSV should only be committed if redistribution is permitted. A `requirements.txt` file can be created from the dependency list above.
-
 ## Limitations and Recommended Further Work
 
 The notebook is an exploratory machine learning project. Before treating its results as evidence of real-world predictive performance, consider the following:

@@ -172,7 +172,7 @@ The notebook is an exploratory machine learning project. Before treating its res
 The model is a decision-support research exercise, not a clinical diagnostic system. Predictions should not replace professional clinical judgement.
 
 
-**Opoku Asante Emmanuel**, Data Scientist and Financial Economist
+**Yaw Asante** - Data Scientist, Statistician and Financial Economist
 
 Email: vkpoasante@gmail.com
 

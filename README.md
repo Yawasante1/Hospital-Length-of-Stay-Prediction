@@ -1,4 +1,4 @@
-[README_Hospital_LOS_Prediction.md](https://github.com/user-attachments/files/34275499/README_Hospital_LOS_Prediction.md)
+
 # Hospital Length of Stay (LOS) Prediction
 
 ## Project Overview
@@ -20,7 +20,7 @@ The notebook combines exploratory data analysis (EDA), categorical-variable enco
 
 ## Dataset
 
-Too big to be uploaed
+Too big to be uploaded
 
 The dataset contains **500,000 records and 15 columns**. The recorded notebook output reports no missing values and no duplicate rows.
 

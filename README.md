@@ -169,14 +169,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels xgboost jup
 
 The notebook is an exploratory machine learning project. Before treating its results as evidence of real-world predictive performance, consider the following:
 
-1. **Repeated patient records:** The dataset contains repeated admissions for some patient IDs. Although `patientid` is removed as a predictor, the notebook uses a random row-level train/test split. Records belonging to the same patient may therefore appear in both sets. A patient-grouped split would provide a stronger test of generalisation to previously unseen patients.
-2. **Prediction-time availability:** Confirm that every predictor is genuinely available at the intended time of prediction. Variables recorded after admission or during the hospital stay could make the model unsuitable for an admission-time forecast.
-3. **Encoding before splitting:** Dummy encoding is performed before the train/test split. For a stricter evaluation pipeline, fit preprocessing only on training data, preferably through a scikit-learn `Pipeline` and `ColumnTransformer`.
-4. **Tuning and validation:** Keep the test set untouched during model selection. Use cross-validation within the training data for tuning, then evaluate the selected model once on the held-out test set.
-5. **Feature importance:** Tree-based feature importance can be biased toward certain feature types and should not be interpreted as causal impact. Permutation importance or SHAP analysis could provide additional interpretation.
-6. **Metric interpretation:** The notebook's MAPE calculation divides by actual LOS. It is unsuitable when actual target values are zero; verify the target values and metric assumptions before reuse on another dataset.
-7. **Clinical and operational validation:** Validate the model prospectively and with relevant hospital stakeholders before using predictions to influence staffing, bed allocation, discharge planning, or patient care.
-
 The model is a decision-support research exercise, not a clinical diagnostic system. Predictions should not replace professional clinical judgement.
 
 

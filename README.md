@@ -165,13 +165,6 @@ Install the main dependencies:
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels xgboost jupyter
 ```
 
-### Run locally
-
-1. Clone or download this repository.
-2. Place `healthcare_data.csv` in the same directory as the notebook.
-3. Install the dependencies.
-4. Start Jupyter Notebook:
-
 ## Limitations and Recommended Further Work
 
 The notebook is an exploratory machine learning project. Before treating its results as evidence of real-world predictive performance, consider the following:
